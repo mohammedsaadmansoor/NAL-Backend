@@ -257,11 +257,6 @@ class PropertyListResponse(BaseModel):
     properties: List[PropertyResponse]
     total_count: int
     page: int
-    limit: int PropertyListResponse(BaseModel):
-    """Paginated list of properties."""
-    properties: List[PropertyResponse]
-    total_count: int
-    page: int
     limit: int
 
 
